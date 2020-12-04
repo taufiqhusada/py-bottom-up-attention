@@ -48,11 +48,12 @@ Without Attributes:
 
 
 ## Note
-1. If the weight is not automatically downloaded, please try manual downloading:
+1. ~If the weight is not automatically downloaded, please try manual downloading~:
    ```
    wget --no-check-certificate https://nlp1.cs.unc.edu/models/faster_rcnn_from_caffe_attr.pkl -P ~/.torch/fvcore_cache/models/
    wget --no-check-certificate https://nlp1.cs.unc.edu/models/faster_rcnn_from_caffe.pkl -P ~/.torch/fvcore_cache/models/
    ```
+   These backup links no longer work any more. Please directly contact me if there is any issue.
 2. The default weight is same to the 'alternative pretrained model' in the original github [here](https://github.com/peteanderson80/bottom-up-attention#demo), which is trained with 36 bbxes. If you want to use the original detetion trained with 10~100 bbxes, please use the following weight:
    ```
    http://nlp.cs.unc.edu/models/faster_rcnn_from_caffe_attr_original.pkl
