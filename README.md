@@ -84,6 +84,11 @@ ResNet --> RPN --> RoiPooling + Res5 --> Box Regression --> BOX
                                                                               |-> Attribute
 ```
 
+## Acknowledgement
+The Caffe2PyTorch conversion code (not released here) is based on [Ruotian Luo](https://ttic.uchicago.edu/~rluo/)'s [PyTorch-ResNet](https://github.com/ruotianluo/pytorch-resnet) project. The project also refers to [Ross Girshick](https://www.rossgirshick.info/)'s old [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn) on its way.
+
+
+
 ## References
 
 Detectron2:
